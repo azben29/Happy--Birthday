@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="out.css">
+    <title>Happy birthday</title>
+</head>
+
+<body>
+
+    <h1 id="sbaae">وسبع زهرتو واعرة <br> <span id="spann">دخل اسمك وأصلك العقرب</span></h1>
+    
+    <h1 id="birthday"></h1>
+    <h1 id="birthdaytwo"></h1>
+    <h1 id="birthdaytre"></h1>
+    <h1 id="birthdayfor"></h1>
+
+
+    
+    <h1 id="date"></h1>
+
+<form action="">
+    <input type="text" id="firstNameInput" placeholder= "الاسم (محمد مثلا)"><br>
+    <input type="text" id="lastNameInput"placeholder= "الكنية (بنحمدوش مثلا)"><br>
+    <button id="goBtn" onclick="myFunction();return false;">انطلق</button>
+</form>
+
+<h1 id="message"></h1>
+<h1 id="messaget"></h1>
+
+<p id="messagetwo"></p>
+<p id="imagee"></p>
+
+
+<a href=""><button id="languebtn" onclick="myLangue()" >العربية</button></a> 
+<a href="outeng.html"><button id="languebtnT" onclick="myLangue()" >ENGLISH</button></a>
+
+<p id="error" style="color: aliceblue;"> </p>
+
+<script>
+
+       var firstNameInput = document.getElementById("firstNameInput");
+       var lastNameInput = document.getElementById("lastNameInput");
+
+       var btn = document.getElementById("goBtn");
+
+       var message = document.getElementById("message");
+       var messaget = document.getElementById("messaget");
+
+       var messagetwo = document.getElementById("messagetwo");
+       var date = document.getElementById("date");
+       var image = `<img src="benh.png">`;
+
+       var imagee = document.getElementById('imagee');
+       var birthp = document.getElementById("birthday");
+
+       var birthdayy = `<img src="birthday.png">`;
+       var birthdaytwo =document.getElementById("birthdaytwo");
+
+       var birthdaytre = document.getElementById("birthdaytre");
+       var birthdayfor = document.getElementById("birthdayfor");
+
+       var languebtn = document.getElementById("languebtn");
+       var error = document.getElementById("error");
+
+       var audio = new Audio('اغنيه_عيد_ميلاد_سنه_حلوه_ياجميل_هابي_بيرثي_تويو_Happy_Birthday_mp4MP3.mp3');
+
+ 
+    
+   
+
+       function myFunction() {
+        if(firstNameInput.value === "" || lastNameInput.value === ""){
+        error.innerHTML="أدخل اسمك أصحبي هاهاها"
+    }
+ 
+    else if(firstNameInput.value === "محمد" || lastNameInput.value === "بنحمدوش"){
+
+        message.innerHTML = `
+عيد ميلاد سعيد <br> ${firstNameInput.value} ${lastNameInput.value}`;
+        messaget.innerHTML = `
+عيد ميلاد سعيد <br> ${firstNameInput.value} ${lastNameInput.value}`;
+
+        messagetwo.innerHTML = ` ${firstNameInput.value} ${lastNameInput.value} عيد مولد سعيد. لا تتمنى أمنية واحدة فقط. قدم العديد من الأمنيات كما تريد وآمل أن يتحقق كل واحد منهم
+`;
+
+        date.innerHTML = "29/01/2022";
+        imagee.innerHTML =  image;
+        birthp.innerHTML =  birthdayy;
+        birthdaytwo.innerHTML = birthdayy;
+        birthdaytre.innerHTML = birthdayy;
+        birthdayfor.innerHTML = birthdayy;
+        
+        document.getElementById("sbaae").style.display = "none";
+        audio.play();
+        error.innerHTML=" شدييييييييييييييد "
+
+    }
+       }
+  
+   
+    // else{
+    //     error.innerHTML= "please man"
+    // }
+
+   
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+@media (min-width:930px){
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(backg.jpg);
+    font-family: 'Changa', sans-serif;
+
+}
+form{
+    
+    margin-top: 215px;
+        margin-left: 421px;
+
+}
+form input{
+ margin: 10px;
+        width: 443px;
+        height: 33px;
+        outline: none;
+        border: none;
+        text-align: center;
+
+        background-color: rgb(228, 205, 0);
+}
+form input::placeholder{
+    text-align: center;
+     outline: none;
+        border: none;
+        font-family: 'Changa', sans-serif;
+}
+form button{
+    margin-left: 199px;
+   padding: 8px 20px;
+    margin-top: 10px;
+    background-color: rgb(228, 205, 0);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: 'Changa', sans-serif;
+}
+form button:hover{
+    
+    background-color: rgba(255, 230, 0, 0.966);
+   
+}
+#languebtnT{
+
+    margin-left: -85px;
+        padding: 6px 19px;
+        margin-top: 42px;
+        background-color: rgb(228, 205, 0);
+        outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Changa', sans-serif;
+    border-radius: 100PX;
+    position: absolute;
+
+}
+#languebtnT:hover{
+    background-color: rgba(255, 230, 0, 0.966);
+}
+
+#date{
+    margin-top: -143px;
+    margin-left: 569px;
+    position: absolute;
+    color:  rgb(228, 205, 0);
+
+}
+#message{
+    margin-top: -129px;
+        margin-left: 119px;
+        position: absolute;
+        color: white;
+        
+
+}
+#messaget{
+    margin-top: -129px;
+    margin-left: 957px;
+    position: absolute;
+    color: white;
+
+        
+
+}
+#messagetwo{
+    margin-top: 41px;
+    margin-left: 252px;
+    color: white;
+
+}
+img{
+    width: 153px;
+        position: absolute;
+        margin-left: 573px;
+         margin-top: -364px;
+         border: none;
+}
+#languebtn{
+    margin-left: 609px;
+    margin-top: 6px;
+    padding: 9px 30px;
+    border-radius: 100PX;
+    cursor: pointer;
+    background-color:  rgb(228, 205, 0);
+    border: none;
+}
+
+#languebtn:hover{
+    background-color:  rgba(192, 173, 0, 0.966);
+}
+#languebtn i{
+    font-size: 15px;
+}
+#birthday img{
+    width: 333px;
+    position: absolute;
+    margin-left: -8px;
+    margin-top: -298px;
+     border: none;
+}
+#birthdaytwo img{
+    width: 333px;
+    position: absolute;
+    margin-left: 310px;
+    margin-top: -324px;
+
+}
+#birthdaytre img{
+    width: 333px;
+    position: absolute;
+    margin-left: 631px;
+    margin-top: -344px;
+}
+#birthdayfor img{
+    width: 333px;
+    position: absolute;
+    margin-left: 929px;
+    margin-top: -328px;
+}
+#sbaae{
+    position: absolute;
+    color: rgb(228, 205, 0);
+    margin-top: -93px;
+    margin-left: 519px;
+}
+
+#error{
+    margin-left: 573px;
+        margin-top: 68px;
+}
+#spann{
+    margin-left: 48px;
+    font-size: 13px;
+    color: white;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:929px){
+
+
+    body{
+        margin: 0;
+        padding: 0;
+        background-image: url(backg.jpg);
+        font-family: 'Changa', sans-serif;
+    
+    }
+    form{
+        
+        margin-top: 331px;
+            margin-left: 20px;
+    
+    }
+    form input{
+     margin: 10px;
+            width: 327px;
+            height: 33px;
+            outline: none;
+            border: none;
+            text-align: center;
+    
+            background-color: rgb(228, 205, 0);
+    }
+    form input::placeholder{
+        text-align: center;
+         outline: none;
+            border: none;
+            font-family: 'Changa', sans-serif;
+    }
+    form button{
+        margin-left: 147px;
+       padding: 8px 20px;
+        margin-top: 10px;
+        background-color: rgb(228, 205, 0);
+        outline: none;
+        border: none;
+        cursor: pointer;
+        border-radius: 15px;
+        font-family: 'Changa', sans-serif;
+    }
+    form button:hover{
+        
+        background-color: rgba(255, 230, 0, 0.966);
+       
+    }
+    #languebtnT{
+    
+        margin-left: 154px;
+            padding: 6px 19px;
+            margin-top: 42px;
+            background-color: rgb(228, 205, 0);
+            outline: none;
+        border: none;
+        cursor: pointer;
+        font-family: 'Changa', sans-serif;
+        border-radius: 100PX;
+        position: absolute;
+    
+    }
+    #languebtnT:hover{
+        background-color: rgba(255, 230, 0, 0.966);
+    }
+    
+    #date{
+        margin-top: -223px;
+        margin-left: 101px;
+        position: absolute;
+        color:  rgb(228, 205, 0);
+    
+    }
+    #message{
+        margin-top: -218px;
+            margin-left: 127px;
+            position: absolute;
+            color: white;
+            font-size: 13px;
+            
+    
+    }
+    #messaget{
+        margin-top: -129px;
+        margin-left: 273px;
+        position: absolute;
+        color: white;
+        display: none;
+    
+            
+    
+    }
+    #messagetwo{
+            margin-top: 57px;
+            margin-left: 45px;
+            color: white;
+            position: absolute;
+            font-size: 12px;
+    
+    }
+    img{
+        width: 156px;
+            position: absolute;
+            margin-left: 100px;
+            margin-top: -358px;
+             border: none;
+             
+    }
+    #languebtn{
+        margin-left: 157px;
+        margin-top: 6px;
+        padding: 9px 30px;
+        border-radius: 100PX;
+        cursor: pointer;
+        background-color:  rgb(228, 205, 0);
+        border: none;
+        display: none;
+    }
+    
+    #languebtn:hover{
+        background-color:  rgba(192, 173, 0, 0.966);
+    }
+    #languebtn i{
+        font-size: 15px;
+    }
+    #birthday img{
+        position: absolute;
+        width: 388px;
+        position: absolute;
+        margin-left: -19px;
+        margin-top: -449px;
+        border: none;
+         border: none;
+         
+    }
+    #birthdaytwo img{
+        width: 333px;
+        position: absolute;
+        margin-left: 310px;
+        margin-top: -324px;
+        display: none;
+    
+    }
+    #birthdaytre img{
+        width: 333px;
+        position: absolute;
+        margin-left: 631px;
+        margin-top: -344px;
+        display: none;
+    }
+    #birthdayfor img{
+        width: 333px;
+        position: absolute;
+        margin-left: 929px;
+        margin-top: -328px;
+        display: none;
+    }
+    #sbaae{
+        position: absolute;
+        color: rgb(228, 205, 0);
+        margin-top: -135px;
+            margin-left: 58px;
+        }
+    }
+    
+    #error{
+        margin-left: 148px;
+            margin-top: 106px;
+    }
+    #spann{
+        margin-left: 48px;
+        font-size: 13px;
+        color: white;
+    }
+    
+    
+    
+    
